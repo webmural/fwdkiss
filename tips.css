@@ -1,16 +1,26 @@
 ::selection {
   background: indigo;
-  color: pink;
+  color: hotpink;
 }
 
 :root {
-  background-color: lemonchiffon;
-  background-image: radial-gradient(hotpink 0%, hotpink 33%, lemonchiffon 33%, lemonchiffon 67%, chocolate 67%, chocolate 100%);
-  color: #212;
+  background-color: silver;
+  background-image: conic-gradient(deeppink, mediumpurple 50%, hotpink 80%, mediumpurple);
+  color: indigo;
+}
+
+.dc {
+  background-image: conic-gradient(deeppink, blueviolet 50%, deeppink 80%, blueviolet);
+  color: mistyrose;
+}
+
+.og {
+  background-image: conic-gradient(deeppink, #bae 50%, darkviolet 80%, #bae);
+  color: #110110;
 }
 
 :any-link {
-  color: indigo;
+  color: inherit;
 }
 
 @media (prefers-contrast: more) {
